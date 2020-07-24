@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:whitesmoke ;
+}
+/*______________________________________________________________________
+    CABEÇALHO 
+______________________________________________________________________*/
+#container {
+    width: 100%;
+    margin: auto;
+    background-color: #FFD13B
+}
+#area_logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    
+    }
+    #tec,
+    #blog {
+    display: inline;  
+    }
+    #tec {
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+       
+       
+    }
+    #blog {
+        color: white;
+        font-size: 40px;
+        border-radius: 2px;
+        font-weight: bold;
+        
+    }
+
+#area_menu {
+    text-align: center;
+    padding: 20px;
+}
+    #area_menu a{
+        text-decoration: none;
+        margin-left: 15px;
+        padding: 16px 10px;
+        color: black;
+        font-size: 15px;
+        
+    }
+    #area_menu a:active {
+    color: white;
+    }
+    #area_menu a:hover {
+        cursor: pointer;
+        color: #FFD13B;
+        padding: 16px 10px;
+        background-color: white ;
+              
+    }   
+/*______________________________________________________________________
+   POSTAGEM
+______________________________________________________________________*/
+.postagem {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;       
+    
+}
+    .feed { 
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+    }
+    .feed h1 {
+        color: #FFD13B;
+        font-size: 35px;
+
+    }
+    .feed h2 {
+        font-size: 15px;
+        padding: 10px; 
+    }
+/*______________________________________________________________________
+   poste recentes
+______________________________________________________________________*/   
+.area_lateral{
+    width: 245px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 10px;
+    
+}
+.recentes {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.titulo_recentes {
+    background-color: #ccc;
+   
+}
+.titulo_recentes h1 {
+    color: black;
+    font-size: 20px;
+}
+.recentes p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.recentes a {
+    color: #FFD13B;
+    text-decoration: none;
+}
+.recentes li {
+    list-style: none;
+}
+footer {
+    max-width: 980px;
+    width: 100%;
+    height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    clear: both;
+    background-color: #ccc;
+    margin: auto;
+    text-align: center;
+}
